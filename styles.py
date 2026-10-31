@@ -43,7 +43,7 @@ def get_custom_css():
     .brand-hero h1 {
         font-family: 'Outfit', sans-serif;
         font-weight: 900;
-        font-size: 2.6rem;
+        font-size: 2.5rem;
         margin-bottom: 10px;
         color: #ffffff !important;
         letter-spacing: -0.03em;
@@ -53,7 +53,7 @@ def get_custom_css():
     .brand-hero h2 {
         font-family: 'Plus Jakarta Sans', sans-serif;
         color: #fef08a !important;
-        font-size: 1.35rem;
+        font-size: 1.3rem;
         font-weight: 700;
         margin-top: -4px;
         margin-bottom: 12px;
