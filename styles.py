@@ -43,7 +43,7 @@ def get_custom_css():
     .brand-hero h1 {
         font-family: 'Outfit', sans-serif;
         font-weight: 900;
-        font-size: 2.6rem;
+        font-size: 2.5rem;
         margin-bottom: 10px;
         color: #ffffff !important;
         letter-spacing: -0.03em;
@@ -53,7 +53,7 @@ def get_custom_css():
     .brand-hero h2 {
         font-family: 'Plus Jakarta Sans', sans-serif;
         color: #fef08a !important;
-        font-size: 1.35rem;
+        font-size: 1.3rem;
         font-weight: 700;
         margin-top: -4px;
         margin-bottom: 12px;
@@ -125,6 +125,37 @@ def get_custom_css():
         white-space: nowrap;
         box-shadow: 0 4px 10px rgba(13, 148, 136, 0.35);
         border: 2px solid #ffffff;
+    }
+
+    /* 🎨 Alphabet Card Soundboard */
+    .alphabet-card {
+        background: #ffffff;
+        border: 2px solid #e2e8f0;
+        border-radius: 16px;
+        padding: 16px 12px;
+        text-align: center;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.04);
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+        margin-bottom: 12px;
+    }
+    .alphabet-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 12px 20px rgba(2, 132, 199, 0.15);
+        border-color: #38bdf8;
+    }
+    .alphabet-letter {
+        font-family: 'Outfit', sans-serif;
+        font-size: 2.2rem;
+        font-weight: 900;
+        color: #0284c7;
+        margin: 0;
+        line-height: 1.1;
+    }
+    .alphabet-word {
+        font-size: 1rem;
+        font-weight: 700;
+        color: #0f172a;
+        margin: 4px 0 2px 0;
     }
 
     /* 🎨 Colorful Level Badges */
@@ -221,19 +252,6 @@ def get_custom_css():
     .card-rose {
         background: linear-gradient(135deg, #ffffff 0%, #fff1f2 100%);
         border-top: 4px solid #f43f5e;
-    }
-
-    /* Tense Grid / Formula Box */
-    .formula-box {
-        background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
-        border: 2px dashed #94a3b8;
-        border-radius: 12px;
-        padding: 14px 18px;
-        font-family: 'Courier New', monospace;
-        font-size: 1.02rem;
-        font-weight: 700;
-        color: #1e293b;
-        margin: 12px 0;
     }
 
     /* Comparison Box (Formal vs Casual) */
